@@ -1,0 +1,395 @@
+@media only screen and (max-width: 1400px) {
+    .header-info {
+        padding-left: 3.5rem;
+    }
+
+    .nav-bar {
+        padding: 0 3.5rem;
+    }
+
+    .registerForms form {
+        padding-left: 3.5rem;
+    }
+
+    #check-sex form {
+        padding-left: 3.5rem;
+    }
+
+    .interesting form {
+        padding-left: 3.5rem;
+    }
+
+    .paragraph {
+        padding-left: 3.5rem;
+    }
+
+    .footer-bar {
+        padding: 0 3.5rem;
+    }
+
+    #grid {
+        margin: 0 3.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 700px) {
+    .header-info {
+        padding-left: 2rem;
+        height: 330px;
+    }
+
+    .nav-bar {
+        padding: 0 2rem;
+    }
+
+    .registerForms form {
+        padding-left: 2rem;
+    }
+
+    .input-name {
+        width: 190px;
+    }
+
+    #check-sex form {
+        padding-left: 2rem;
+    }
+
+    .interesting form {
+        padding-left: 2rem;
+    }
+
+    .paragraph {
+        padding-left: 2rem;
+    }
+
+    .footer-bar {
+        padding: 0 2rem;
+    }
+
+    #grid {
+        margin: 0 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 651px) {
+    .header-info {
+        padding-left: 2rem;
+        height: 330px;
+    }
+
+    .nav-bar {
+        padding: 0 2rem;
+    }
+
+    .registerForms form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .registerForms .input-name {
+        width: 200px;
+        margin: 0.7rem 0;
+    }
+
+    .input-age {
+        width: 90px;
+        margin-top: 0.7rem;
+    }
+
+    .interesting form {
+        padding-left: 2rem;
+    }
+
+    .paragraph {
+        padding-left: 2rem;
+    }
+
+    .footer-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-l {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-r a {
+        font-size: 1.6rem;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 501px) {
+    .header-info {
+        padding: 0 1rem;
+        height: 290px;
+    }
+
+    .nav-bar {
+        padding: 0 2rem;
+    }
+
+    .registerForms form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .registerForms .input-name {
+        width: 200px;
+        margin: 0.7rem 0;
+    }
+
+    .input-age {
+        width: 90px;
+        margin-top: 0.7rem;
+    }
+
+    .interesting form {
+        padding-left: 2rem;
+    }
+
+    .paragraph {
+        padding-left: 2rem;
+    }
+
+    .section-info {
+        margin: 2rem;
+        height: 150px;
+    }
+
+    .section-info form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-info form input {
+        margin-bottom: 0.8rem;
+    }
+
+    .footer-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-l {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .footer-r a {
+        font-size: 1.6rem;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 451px) {
+    .header-info {
+        padding: 0 1rem;
+        height: 300px;
+    }
+
+    .header-info h1 {
+        padding-top: 5rem;
+        font-size: 1.5rem;
+    }
+
+    .header-info p {
+        font-size: 0.9rem;
+    }
+
+    .header-info input {
+        width: 200px;
+    }
+
+    .header-info button {
+        width: 100px;
+    }
+
+    .nav-bar {
+        padding: 0 2rem;
+    }
+
+    .registerForms form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .registerForms .input-name {
+        width: 250px;
+        margin: 0.7rem 0;
+    }
+
+    .input-age {
+        width: 110px;
+        margin-top: 0.7rem;
+    }
+
+    #check-sex form {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .interesting form {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .paragraph {
+        padding: 0;
+        text-align: center;
+    }
+
+    .section-info {
+        margin: 2rem;
+        height: 150px;
+    }
+
+    .section-info form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-info form input {
+        margin-bottom: 0.8rem;
+    }
+
+    .footer-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-l {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .footer-r a {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width:376px) {
+    .header-info {
+        padding: 0 1rem;
+        height: 280px;
+    }
+
+    .header-info h1 {
+        font-size: 1rem;
+        padding-top: 5.5rem;
+    }
+
+    .header-info p {
+        font-size: 0.8rem;
+    }
+
+    .header-info form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-bar {
+        padding: 0 2rem;
+    }
+
+    .registerForms form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .registerForms .input-name {
+        width: 250px;
+        margin: 0.7rem 0;
+    }
+
+    .input-age {
+        width: 110px;
+        margin-top: 0.7rem;
+    }
+
+    #check-sex form {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .interesting form {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .paragraph {
+        padding: 0;
+        text-align: center;
+    }
+
+    .section-info {
+        margin: 2rem;
+        height: 150px;
+        font-size: 0.9rem;
+    }
+
+    .section-info form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-info form input {
+        margin-bottom: 0.8rem;
+    }
+
+    .footer-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+
+    .footer-l {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .footer-r a {
+        font-size: 0.9rem
+    }
+}
